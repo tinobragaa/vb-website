@@ -61,3 +61,102 @@ a:visited {
 .active {
     font-style: italic;
 }
+
+/* Footer */
+
+.main-footer {
+    margin: 20px 80px 10px;
+}
+
+.footer-left {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    float: left;
+    margin-right: 50px;
+}
+
+.footer-left span {
+    font-size: smaller;
+}
+
+.footer-right {
+    float: right;
+    text-align: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-copyright {
+    display: inline;
+    color: darkgrey;
+    font-size: 10px;
+    letter-spacing: 1px;
+    transition: 1s ease-in-out;
+}
+
+.footer-copyright:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Home */
+
+.spacer {
+    height: 140px;
+}
+
+.box-content {
+    width: 800px;
+    margin: 0 auto 70px;
+}
+
+.box-content h3 {
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.box-content a {
+    border-bottom: 1px solid;
+    font-weight: 900;
+}
+
+.box-content p {
+    margin-bottom: 10px;
+}
+
+.articles-title {
+    margin: 40px 0;
+    text-transform: uppercase;
+}
+
+#codu-link {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 1s ease-in-out;
+}
+
+#codu-link:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.codu-button {
+    margin-bottom: 70px;
+}
+
+/* About */
+
+/* Portfolio */
+
+/* Gallery */
+
+/* Contact */
