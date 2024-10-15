@@ -202,7 +202,7 @@ a:visited {
     margin-bottom: 80px;
 }
 
-/* Used this artcile as a reference to create a gradient button: https://www.shecodes.io/athena/2016-css-gradients-how-to-create-a-button-with-neon-effect and https://codepen.io/pirrera/pen/bqVeGx */
+/* Used this artcile as a reference to create a gradient button to match the design from the website I write for: https://www.shecodes.io/athena/2016-css-gradients-how-to-create-a-button-with-neon-effect and https://codepen.io/pirrera/pen/bqVeGx */
 .codu-button {
     background-image: linear-gradient(to right, #fb923c 0%, #fb923c 31%, #db2777 100%);
     color: transparent;
@@ -241,9 +241,15 @@ a:visited {
 
 /* About */
 
+.box-about {
+    width: 900px;
+    margin: auto;
+}
+
 .about-title {
     font-family: Valentino, sans-serif;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .about-title p, .about-title img {
@@ -257,6 +263,26 @@ a:visited {
 
 .about-title img {
     border-radius: 30px;
+}
+
+.about-subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.box-about p:first-of-type {
+    width: 700px;
+    margin-bottom: 80px;
+    float: left;
+}
+
+.box-about p:nth-of-type(2) {
+    width: 700px;
+    margin-bottom: 60px;
+    text-align: justify;
+    float: right;
 }
 
 
