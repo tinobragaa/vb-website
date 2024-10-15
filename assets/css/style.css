@@ -129,10 +129,13 @@ a:visited {
     top: 2px;
 }
 
-.footer-name {
+.green-hover {
     font-family: Valentino, sans-serif;
-    font-size: 8vw;
-    letter-spacing: 3px;
+    font-size: 6vw;
+}
+
+.green-hover:hover {
+    color: chartreuse;
 }
 
 /* Home */
