@@ -26,6 +26,19 @@ a {
 
 /* Navigation Bar */
 
+.logo {
+    position: fixed;
+    font-size: 80px;
+    font-family: Font1;
+    left: 60px;
+    top: 25px;
+    transition: 1s ease;
+}
+
+.logo:hover {
+    color: chartreuse;
+}
+
 .nav {
     margin-top: 40px;
 }
