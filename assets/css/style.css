@@ -241,6 +241,25 @@ a:visited {
 
 /* About */
 
+.about-title {
+    font-family: Valentino, sans-serif;
+    text-align: center;
+}
+
+.about-title p, .about-title img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.about-title p {
+    font-size: 10vw;
+}
+
+.about-title img {
+    border-radius: 30px;
+}
+
+
 /* Portfolio */
 
 /* Gallery */
