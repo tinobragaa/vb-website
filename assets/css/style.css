@@ -43,6 +43,7 @@ a {
     margin-top: 40px;
 }
 
+/* Used this article on how to create a blur effect as a reference for the navigation bar: https://cloudinary.com/guides/front-end-development/blur-image-css-two-ways-to-blur-images-for-gorgeous-effects#:~:text=CSS%20at%20Scale-,Method%201%3A%20Blurring%20an%20Image%20in%20CSS%20with%20the%20filter,pixels%20merging%20on%20the%20screen. */
 .nav-row{
     padding: 20px;
     border-radius: 40px;
@@ -164,7 +165,7 @@ a:visited {
 
 .box-content {
     width: 800px;
-    margin: 0 auto 70px;
+    margin: auto;
 }
 
 .box-content h3 {
@@ -181,25 +182,34 @@ a:visited {
 }
 
 .articles-title {
-    margin: 40px 0;
+    font-family: Valentino, sans-serif;
+    font-size: 4rem;
+    margin: 40px 0 0;
     text-transform: uppercase;
 }
 
-#codu-link {
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-    border-radius: 20px;
-    transition: 1s ease-in-out;
+.main-content .box-content:nth-child(4) {
+    margin: 50px auto;
 }
 
-#codu-link:hover {
-    background-color: #fff;
-    color: #000;
+.main-content hr {
+    border: 1px solid black;
+    max-width: 1000px;
+    margin: 20px auto;
 }
 
+.codu-button-box {
+    margin-bottom: 80px;
+}
+
+/* Used this artcile as a reference to create a gradient button: https://www.shecodes.io/athena/2016-css-gradients-how-to-create-a-button-with-neon-effect and https://codepen.io/pirrera/pen/bqVeGx */
 .codu-button {
-    margin-bottom: 70px;
+    background-image: linear-gradient(to right, #fb923c 0%, #fb923c 31%, #db2777 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 .icon-style {
@@ -211,7 +221,6 @@ a:visited {
 .cool-link {
     position: relative;
     display: inline-block;
-    color: #000;
     text-decoration: none;
 }
 
