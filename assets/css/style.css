@@ -204,6 +204,29 @@ a:visited {
     transform: rotate(325deg);
 }
 
+/* The underline effect for .cool-link was taken and adapted from this stack overflow thread: https://stackoverflow.com/questions/64444727/how-can-i-make-the-bottom-border-grow-from-the-left-side-and-minimize-to-the-rig */
+.cool-link {
+    position: relative;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width 0.5s ease;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+}
+
 /* About */
 
 /* Portfolio */
