@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: 'Font1';
+    font-family: 'Valentino';
     src: url('../font/Spikle.woff') format('woff');
 }
 
@@ -29,7 +29,7 @@ a {
 .logo {
     position: fixed;
     font-size: 80px;
-    font-family: Font1;
+    font-family: Valentino;
     left: 60px;
     top: 25px;
     transition: 1s ease;
@@ -129,10 +129,33 @@ a:visited {
     top: 2px;
 }
 
+.footer-name {
+    font-family: Valentino, sans-serif;
+    font-size: 8vw;
+    letter-spacing: 3px;
+}
+
 /* Home */
 
 .spacer {
-    height: 140px;
+    height: 180px;
+}
+
+.main-title {
+    display: inline;
+    font-family: Valentino, sans-serif;
+    font-weight: 100;
+    font-size: 8vw;
+    text-transform: uppercase;
+}
+
+.green-exclamation {
+    color: chartreuse;
+    font-weight: bold;
+}
+
+.main-title-box {
+    margin-bottom: 100px;
 }
 
 .box-content {
