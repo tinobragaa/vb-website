@@ -419,4 +419,17 @@ th, td {
 
 /* Gallery */
 
+.gallery-title {
+    font-family: Valentino, sans-serif;
+    font-size: 4vw;
+    margin-bottom: 80px;
+}
+
+.gallery-subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 /* Contact */
