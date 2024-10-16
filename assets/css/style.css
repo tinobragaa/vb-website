@@ -350,31 +350,55 @@ th, td {
 /* Portfolio */
 
 .project-title {
-    display: inline;
     font-family: Valentino, sans-serif;
     font-weight: 100;
     font-size: 4vw;
     text-transform: uppercase;
 }
 
+.line-space-project {
+    border: 1px solid black;
+    max-width: 1000px;
+    margin: 5px auto 20px;
+}
+
 .box-project {
-    max-width: 800px;
+    max-width: 600px;
     margin: 60px auto;
-    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .box-project img {
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 900px; 
     height: auto;  
+    margin-top: 20px;
 }
 
 .box-project h2 {
     font-family: Valentino, sans-serif;
     font-size: 4vw;
 }
+
+.left-info {
+    float: left;
+    width: 40%;
+}
+
+.right-info {
+    float: right;
+    width: 55%;
+}
+
+.left-info h3 {
+    font-family: Valentino, sans-serif;
+    font-size: 2vw;
+    margin: 5px 0;
+}
+
 
 /* Gallery */
 
