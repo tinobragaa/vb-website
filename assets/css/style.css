@@ -20,7 +20,7 @@ body {
 }
 
 .main-content {
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 230px);
 }
 
 a {
@@ -93,8 +93,8 @@ a:visited {
 /* Footer */
 
 .main-footer {
-    margin: 20px 80px 10px;
-    height: 100px;
+    margin: 0 80px;
+    height: 170px;
     position: relative;
     clear: both;
 }
