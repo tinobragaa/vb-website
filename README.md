@@ -1,10 +1,11 @@
-# Project Name
+# Valentino Braga
 (Developer: Valentino Braga)
+
+This project was solely created with HTML and CSS, it is a personal website. Here, you’ll find a collection of articles I’ve written, offering insights and thoughts on various topics. You’ll also get to know a little more about me, explore a gallery showcasing memorable moments, and browse through the projects I’ve worked on.
 
 
 ![Mockup image]()
 
-[Live Website]()
 
 # Table Of Contents
 
