@@ -331,6 +331,10 @@ th, td {
     font-weight: lighter;
 }
 
+.icon-hover:hover {
+    color: chartreuse;
+}
+
 /* Portfolio */
 
 /* Gallery */
