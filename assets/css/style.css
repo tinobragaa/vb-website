@@ -503,6 +503,33 @@ video {
 }
 
 /* 1025px wide and down */
+@media (max-width: 1070px) {
+    .footer-right {
+        display: none;
+    }
+
+    .main-footer {
+        text-align: center;
+    }
+
+    .clearfix {
+        text-align: center; 
+    }
+      
+    .footer-left {
+        display: inline-block;
+        float: none;
+        margin: 0;
+    }
+
+    .footer-left p {
+        text-align: center;
+        float: none;
+        margin: 0;
+    }
+}
+
+/* 1025px wide and down */
   @media (max-width: 1025px) {
     .line-space {
         margin: 15px 10px;
