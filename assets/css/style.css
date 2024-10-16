@@ -460,6 +460,7 @@ video {
     font-family: Valentino, sans-serif;
     font-size: 7vw;
     margin-bottom: 70px;
+    font-weight: 100;
 }
 
 .contact-text {
@@ -467,3 +468,36 @@ video {
     font-size: 1.5vw;
 }
 
+/* Media Queries */
+
+ /* 1650px wide and up */
+@media (min-width: 1650px) {
+    .main-title, .gallery-title {
+        font-size: 8rem;
+    }
+
+    .green-hover {
+        font-size: 6rem;
+    }
+   
+    .about-title span {
+        font-size: 10rem;
+    }
+
+    .box-about h2, .project-title, .box-project h2 {
+        font-size: 4rem;
+    }
+
+    .left-info h3 {
+        font-size: 2rem;
+    }
+
+    .contact-title {
+        font-size: 7rem;
+    }
+
+    .contact-text {
+        font-size: 1.5rem;
+    }
+  }
+  
