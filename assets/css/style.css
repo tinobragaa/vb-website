@@ -192,7 +192,7 @@ a:visited {
     margin: 50px auto;
 }
 
-.main-content hr {
+.line-space {
     border: 1px solid black;
     max-width: 1000px;
     margin: 20px auto;
@@ -249,42 +249,82 @@ a:visited {
 .about-title {
     font-family: Valentino, sans-serif;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 160px;
 }
 
-.about-title p, .about-title img {
+.about-title span, .about-title img {
     display: inline-block;
     vertical-align: middle;
 }
 
-.about-title p {
+.about-title span {
     font-size: 10vw;
+    font-weight: 100;
 }
 
 .about-title img {
     border-radius: 30px;
 }
 
-.about-subtitle {
+.about-intro {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
     text-align: justify;
 }
 
-.box-about p:first-of-type {
+.box-about {
+    margin-bottom: 140px;
+}
+
+.box-about p {
+    width: 700px;
+    float: right;
+    text-align: justify;
+}
+
+.box-about p:nth-of-type(1) {
     width: 700px;
     margin-bottom: 80px;
+    text-align: justify;
     float: left;
 }
 
-.box-about p:nth-of-type(2) {
-    width: 700px;
-    margin-bottom: 60px;
-    text-align: justify;
-    float: right;
+.box-about h2 {
+    text-align: center;
+    font-family: Valentino, sans-serif;
+    font-size: 4vw;
+    margin-bottom: 80px;
 }
 
+.box-about ol {
+    text-align: center;
+
+}
+
+.box-about li {
+    margin-bottom: 8px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.table-stack table {
+    width: 100%;
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    text-align: center;
+}
+
+th, td {
+    border: 1px dotted #ccc;
+    padding: 10px;
+}
+
+.project-link {
+    font-weight: lighter;
+}
 
 /* Portfolio */
 
