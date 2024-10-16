@@ -421,8 +421,9 @@ th, td {
 
 .gallery-title {
     font-family: Valentino, sans-serif;
-    font-size: 4vw;
+    font-size: 8vw;
     margin-bottom: 80px;
+    font-weight: lighter;
 }
 
 .gallery-subtitle {
