@@ -429,7 +429,20 @@ th, td {
     text-transform: uppercase;
     font-weight: bold;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto 40px;
+}
+
+.gallery-box {
+    display: block;
+    text-align: center;
+}
+
+.gallery-box img {
+    overflow: hidden;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Contact */
