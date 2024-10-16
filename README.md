@@ -4,24 +4,141 @@
 This project was solely created with HTML and CSS, it is a personal website. Here, you’ll find a collection of articles I’ve written, offering insights and thoughts on various topics. You’ll also get to know a little more about me, explore a gallery showcasing memorable moments, and browse through the projects I’ve worked on.
 
 
-![Mockup image]()
+![Mockup image](/docs/mockup.png)
 
 
 # Table Of Contents
 
-# Design
+- [Valentino Braga](#valentino-braga)
+- [Table Of Contents](#table-of-contents)
+- [Items](#items)
+    + [Five Pages](#five-pages)
+    + [Links to both your own pages and external webpages.](#links-to-both-your-own-pages-and-external-webpages)
+    + [A navigation bar](#a-navigation-bar)
+    + [At least one table used in an appropriate manner](#at-least-one-table-used-in-an-appropriate-manner)
+    + [At least one list (ordered or unordered)](#at-least-one-list--ordered-or-unordered-)
+    + [At least one local or embedded video](#at-least-one-local-or-embedded-video)
+    + [Make use of the CSS positional properties (e.g. position, float)](#make-use-of-the-css-positional-properties--eg-position--float-)
+    + [Make use of both inline and block elements](#make-use-of-both-inline-and-block-elements)
+    + [At least five CSS3 and four HTML5 specific elements](#at-least-five-css3-and-four-html5-specific-elements)
+- [Responsiveness](#responsiveness)
+- [Technologies Used](#technologies-used)
+    + [Languages](#languages)
+- [Validation](#validation)
+    + [HTML Validation](#html-validation)
+    + [CSS Validation](#css-validation)
 
-### Wireframes
+# Items
 
-### Typography
+### Five Pages
+The 5 pages are linked at the navigation bar which you can see here"
+<details>
+<summary>5 Pages</summary>
+<br>
 
-### Colour Palette
+![Internal Links](/docs/navigation-bar.png)
 
-### Imagery
+</details>
 
-# Features
+### Links to both your own pages and external webpages.
+<details>
+<summary>Internal Links</summary>
+<br>
 
-The website contains 6 pages (home page, plans page, about page, contact page, thank you page and 404 error page). 
+![Internal Links](/docs/internal-links.png)
+
+</details>
+<details>
+<summary>External Links</summary>
+<br>
+
+![External Links](/docs/external-links.png)
+
+</details>
+
+
+### A navigation bar
+<details>
+<summary>Nagivation Bar</summary>
+<br>
+
+![Nagivation Bar](/docs/navigation-bar.png)
+
+</details>
+
+### At least one table used in an appropriate manner
+<details>
+<summary>Table</summary>
+<br>
+
+![Table](/docs/table.png)
+
+</details>
+
+### At least one list (ordered or unordered)
+<details>
+<summary>List</summary>
+<br>
+
+![Ordered List](/docs/list.png)
+
+</details>
+
+### At least one local or embedded video
+<details>
+<summary>Video</summary>
+<br>
+
+![Video](/docs/video.png)
+
+</details>
+
+### Make use of the CSS positional properties (e.g. position, float)
+Different positions were used throughout the website. Below are two examples:
+<details>
+<summary>Footer</summary>
+<br>
+
+![footer](/docs/footer.png)
+
+</details>
+<details>
+<summary>About Me Text</summary>
+<br>
+
+![About Me Text](/docs/about-me-text.png)
+
+</details>
+
+### Make use of both inline and block elements
+Multiple inline and block elements were used on the project. Below is one example:
+<details>
+<summary>Span Green Effect</summary>
+<br>
+
+![Span Green Effect](/docs/span-green-effect.png)
+
+</details>
+
+### At least five CSS3 and four HTML5 specific elements
+
+CSS elements examples used:
+- Transition
+- Transform
+- Media Queries
+- Hover
+- Border-radius
+
+HTML elements examples used:
+- Header
+- Footer
+- Main
+- Nav
+
+# Responsiveness 
+In my research on responsive web design, I discovered that media queries are a powerful feature in CSS that allow developers to apply different styles based on the device's screen size, orientation, or resolution. By using media queries, I ensured that the website adapts seamlessly to different devices, providing an optimal viewing experience on desktops, tablets, and mobile phones.
+
+This approach demonstrates that I have not only understood the concept of responsive design but have also successfully applied it to make the website more user-friendly and adaptable to modern devices.
 
 # Technologies Used
 
@@ -30,24 +147,47 @@ The following languages were used to develop the website:
 - HTML
 - CSS
 
-### Resources and Tools
-The following resources and tools were used to develop the website:
--
--
--
-
 # Validation
 
 ### HTML Validation
 
-The Nu HTML Checker (W3C) is used to validate HTML documents. The page passed without any errors.
+The Nu HTML Checker (W3C) is used to validate HTML documents. The pages passed without any errors.
 <details>
-<summary>HTML Validation</summary>
+<summary>index.html</summary>
 <br>
 
-![HTML Validation]()
+![index.html](/docs/index-html-validation.png)
 
 </details>
+<details>
+<summary>about.html</summary>
+<br>
+
+![index.html](/docs/about-html-validation.png)
+
+</details>
+<details>
+<summary>portfolio.html</summary>
+<br>
+
+![index.html](/docs/portfolio-html-validation.png)
+
+</details>
+<details>
+<summary>gallery.html</summary>
+<br>
+
+![index.html](/docs/gallery-html-validation.png)
+
+</details>
+<details>
+<summary>contact.html</summary>
+<br>
+
+![index.html](/docs/contact-html-validation.png)
+
+</details>
+
 
 ### CSS Validation
 
@@ -56,53 +196,6 @@ The W3C Jigsaw CSS Validation Service is used to validate CSS documents. The pag
 <summary>CSS Validation</summary>
 <br>
 
-![CSS Validation]()
+![CSS Validation](/docs/%20style-css-validation.png)
 
 </details>
-
-Responsive test on multiple devices. The following devices were used to ensure the site was responsive:
-
--
--
--
-
-# Bugs
-
-Bug: 
-<br>
-Fix: 
-
-# Deployment
-
-[Click Here To See The Live Website](https://tinobragaa.github.io/mils-kitchen/)
-
-### Deploy
-The website was deployed through the use of GitHub Pages, a feature built in to GitHub. This can be done by following the steps below.
-1. In the desired repository, click on "Settings" from the top menu.
-2. From the side menu to your left, select "Pages" in the "Code and automation" section.
-3. Make sure the "Source" option is set to "Deploy from a branch"
-4. Select the desired "Branch" from the drop down below (main branch in most cases, making sure the director is set to /(root)).
-5. Select "Save", and after it refreshes the page, you will see a box at the top of the page providing you with the URL of your now published site.
-
-To contribute or check the code yourself, you can fork or clone the repository as well.
-
-### Fork
-1. Go to the desired repository
-2. Click "Fork" in the upper right corner
-3. Select the owner, and set the repository name. A description can be added if desired
-4. Choose whether to copy the default branch, or all branches
-5. Click "Create Form"
-
-### Clone
-
-1. Go to the desired repository
-2. Click the "Code" button at the top of the files section of the page
-3. Select your desired method for cloning (HTTPS/SSH/GitHub CLI)
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory
-6. Type "git clone", and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of "YOUR-USERNAME": "$ git clone https://github.com/YOUR-USERNAME/DESIRED-REPOSITORY"
-7. Press Enter. Your local clone will be created.
-
-# Credits
-
-# Acknowledgements
