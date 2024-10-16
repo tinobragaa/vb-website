@@ -281,6 +281,8 @@ a:visited {
 
 .about-title img {
     border-radius: 30px;
+    width: 200px;
+    height: 300px;
 }
 
 .about-intro {
@@ -502,7 +504,7 @@ video {
     }
 }
 
-/* 1025px wide and down */
+/* 1070px wide and down */
 @media (max-width: 1070px) {
     .footer-right {
         display: none;
@@ -512,7 +514,7 @@ video {
         text-align: center;
     }
 
-    .clearfix {
+    .center-footer {
         text-align: center; 
     }
       
@@ -526,6 +528,10 @@ video {
         text-align: center;
         float: none;
         margin: 0;
+    }
+
+    .table-stack {
+        margin: 0 10px;
     }
 }
 
@@ -560,6 +566,49 @@ video {
     header {
         text-align: center;
     }
+
   }
   
-  
+/* 850px wide and down */
+@media (max-width: 850px) {
+
+    .box-content h3 {
+        margin: 10px 10px;
+    }
+
+    .box-content p {
+        margin: 0 10px;
+    }
+
+    .box-content a {
+        margin: 10px;
+    }
+
+    .articles-title {
+        font-size: 7vw;
+    }
+
+    .about-title img {
+        width: 150px;
+        height: auto;
+    }
+
+    .box-about {
+        margin: 0 10px 140px;
+    }
+
+    .box-project h2 {
+        font-size: 2rem;
+    }
+
+    .left-info h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* 650px wide and down */
+@media (max-width: 650px) {
+    .box-project {
+        margin: 80px 10px 20px;
+    }
+}
