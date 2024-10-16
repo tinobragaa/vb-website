@@ -9,10 +9,18 @@
     src: url('../font/Spikle.woff') format('woff');
 }
 
+.html, body {
+    height: 100%;
+}
+
 body {
     background-color: #ede9dd;
     font-family: 'Courier New', Courier, monospace;
     color: black;
+}
+
+.main-content {
+    min-height: calc(100vh - 100px);
 }
 
 a {
@@ -86,6 +94,9 @@ a:visited {
 
 .main-footer {
     margin: 20px 80px 10px;
+    height: 100px;
+    position: relative;
+    clear: both;
 }
 
 .footer-left {
