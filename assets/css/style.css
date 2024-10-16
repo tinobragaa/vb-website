@@ -455,3 +455,15 @@ video {
 }
 
 /* Contact */
+
+.contact-title {
+    font-family: Valentino, sans-serif;
+    font-size: 7vw;
+    margin-bottom: 70px;
+}
+
+.contact-text {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
