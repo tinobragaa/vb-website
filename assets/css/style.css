@@ -611,4 +611,38 @@ video {
     .box-project {
         margin: 80px 10px 20px;
     }
+
+    .nav-row {
+        min-width: unset;
+        display: block; 
+        text-align: center;
+        width: 30%;
+        position: relative;
+    }
+
+    .nav-row li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        display: block;
+    }
+
+    .table-stack table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .box-about h2 {
+        font-size: 2.5rem;
+    }
+
+    .green-hover {
+        font-size: 1.5rem;
+    }
+    .main-footer {
+        margin: 0;
+    }
 }
